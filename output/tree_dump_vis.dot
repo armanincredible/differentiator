@@ -1,0 +1,41 @@
+	digraph dump_graph{
+	rankdir=HR;
+	node[color = "red",fontsize=14];
+	INFO0000000000027660 [shape = record, label = " <left> LEFT :\n0000000000027D60 | <name> * | <right> RIGHT :\n0000000000027320"];
+	node[color = "red",fontsize=14];
+	INFO0000000000027D60 [shape = record, label = " <left> LEFT :\n00000000000273E0 | <name> *| <right> RIGHT :\n0000000000027260"];
+	INFO0000000000027660: <left> -> INFO0000000000027D60: <name>
+	INFO0000000000027D60: <name> -> INFO0000000000027660: <left>
+	node[color = "darkmagenta",fontsize=14];
+	INFO00000000000273E0 [shape = record, label = " <left> LEFT :\n0000000000027D20 | <name> s| <right> RIGHT :\n0000000000000000"];
+	INFO0000000000027D60: <left> -> INFO00000000000273E0: <name>
+	INFO00000000000273E0: <name> -> INFO0000000000027D60: <left>
+	node[color = "red",fontsize=14];
+	INFO0000000000027D20 [shape = record, label = " <left> LEFT :\n00000000000278A0 | <name> ^| <right> RIGHT :\n0000000000027460"];
+	INFO00000000000273E0: <left> -> INFO0000000000027D20: <name>
+	INFO0000000000027D20: <name> -> INFO00000000000273E0: <left>
+	node[color = "darkgreen",fontsize=14];
+	INFO00000000000278A0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> x| <right> RIGHT :\n0000000000000000"];
+	INFO0000000000027D20: <left> -> INFO00000000000278A0: <name>
+	INFO00000000000278A0: <name> -> INFO0000000000027D20: <left>
+	node[color = "blue",fontsize=14];
+	INFO0000000000027460 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 2.000000| <right> RIGHT :\n0000000000000000"];
+	INFO0000000000027D20: <right> -> INFO0000000000027460: <name>
+	INFO0000000000027460: <name> -> INFO0000000000027D20: <right>
+	node[color = "blue",fontsize=14];
+	INFO0000000000027260 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> -1.000000| <right> RIGHT :\n0000000000000000"];
+	INFO0000000000027D60: <right> -> INFO0000000000027260: <name>
+	INFO0000000000027260: <name> -> INFO0000000000027D60: <right>
+	node[color = "red",fontsize=14];
+	INFO0000000000027320 [shape = record, label = " <left> LEFT :\n0000000000027DA0 | <name> *| <right> RIGHT :\n0000000000027CE0"];
+	INFO0000000000027660: <right> -> INFO0000000000027320: <name>
+	INFO0000000000027320: <name> -> INFO0000000000027660: <right>
+	node[color = "blue",fontsize=14];
+	INFO0000000000027DA0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 2.000000| <right> RIGHT :\n0000000000000000"];
+	INFO0000000000027320: <left> -> INFO0000000000027DA0: <name>
+	INFO0000000000027DA0: <name> -> INFO0000000000027320: <left>
+	node[color = "darkgreen",fontsize=14];
+	INFO0000000000027CE0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> x| <right> RIGHT :\n0000000000000000"];
+	INFO0000000000027320: <right> -> INFO0000000000027CE0: <name>
+	INFO0000000000027CE0: <name> -> INFO0000000000027320: <right>
+	}
