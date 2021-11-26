@@ -1,0 +1,145 @@
+	digraph dump_graph{
+	rankdir=HR;
+	node[color = "red",fontsize=14];
+	INFO00000000001EA290 [shape = record, label = " <left> LEFT :\n00000000001EA710 | <name> +| <right> RIGHT :\n00000000001EADD0"];
+	node[color = "red",fontsize=14];
+	INFO00000000001EA710 [shape = record, label = " <left> LEFT :\n00000000001E9F50 | <name> *| <right> RIGHT :\n00000000001EAB10"];
+	INFO00000000001EA290: <left> -> INFO00000000001EA710: <name>
+	INFO00000000001EA710: <name> -> INFO00000000001EA290: <left>
+	node[color = "red",fontsize=14];
+	INFO00000000001E9F50 [shape = record, label = " <left> LEFT :\n00000000001EA510 | <name> *| <right> RIGHT :\n00000000001EB6E0"];
+	INFO00000000001EA710: <left> -> INFO00000000001E9F50: <name>
+	INFO00000000001E9F50: <name> -> INFO00000000001EA710: <left>
+	node[color = "darkmagenta",fontsize=14];
+	INFO00000000001EA510 [shape = record, label = " <left> LEFT :\n00000000001EA090 | <name> c| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E9F50: <left> -> INFO00000000001EA510: <name>
+	INFO00000000001EA510: <name> -> INFO00000000001E9F50: <left>
+	node[color = "red",fontsize=14];
+	INFO00000000001EA090 [shape = record, label = " <left> LEFT :\n00000000001EA8D0 | <name> *| <right> RIGHT :\n00000000001EAD50"];
+	INFO00000000001EA510: <left> -> INFO00000000001EA090: <name>
+	INFO00000000001EA090: <name> -> INFO00000000001EA510: <left>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EA8D0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 5.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EA090: <left> -> INFO00000000001EA8D0: <name>
+	INFO00000000001EA8D0: <name> -> INFO00000000001EA090: <left>
+	node[color = "darkgreen",fontsize=14];
+	INFO00000000001EAD50 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> x| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EA090: <right> -> INFO00000000001EAD50: <name>
+	INFO00000000001EAD50: <name> -> INFO00000000001EA090: <right>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EB6E0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 5.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E9F50: <right> -> INFO00000000001EB6E0: <name>
+	INFO00000000001EB6E0: <name> -> INFO00000000001E9F50: <right>
+	node[color = "red",fontsize=14];
+	INFO00000000001EAB10 [shape = record, label = " <left> LEFT :\n00000000001EAC90 | <name> ^| <right> RIGHT :\n00000000001EA450"];
+	INFO00000000001EA710: <right> -> INFO00000000001EAB10: <name>
+	INFO00000000001EAB10: <name> -> INFO00000000001EA710: <right>
+	node[color = "darkmagenta",fontsize=14];
+	INFO00000000001EAC90 [shape = record, label = " <left> LEFT :\n00000000001EA890 | <name> c| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EAB10: <left> -> INFO00000000001EAC90: <name>
+	INFO00000000001EAC90: <name> -> INFO00000000001EAB10: <left>
+	node[color = "red",fontsize=14];
+	INFO00000000001EA890 [shape = record, label = " <left> LEFT :\n00000000001EA250 | <name> *| <right> RIGHT :\n00000000001EA350"];
+	INFO00000000001EAC90: <left> -> INFO00000000001EA890: <name>
+	INFO00000000001EA890: <name> -> INFO00000000001EAC90: <left>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EA250 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 3.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EA890: <left> -> INFO00000000001EA250: <name>
+	INFO00000000001EA250: <name> -> INFO00000000001EA890: <left>
+	node[color = "darkgreen",fontsize=14];
+	INFO00000000001EA350 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> x| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EA890: <right> -> INFO00000000001EA350: <name>
+	INFO00000000001EA350: <name> -> INFO00000000001EA890: <right>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EA450 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 3.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EAB10: <right> -> INFO00000000001EA450: <name>
+	INFO00000000001EA450: <name> -> INFO00000000001EAB10: <right>
+	node[color = "red",fontsize=14];
+	INFO00000000001EADD0 [shape = record, label = " <left> LEFT :\n00000000001EA990 | <name> *| <right> RIGHT :\n00000000001E9F10"];
+	INFO00000000001EA290: <right> -> INFO00000000001EADD0: <name>
+	INFO00000000001EADD0: <name> -> INFO00000000001EA290: <right>
+	node[color = "darkmagenta",fontsize=14];
+	INFO00000000001EA990 [shape = record, label = " <left> LEFT :\n00000000001EAA10 | <name> s| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EADD0: <left> -> INFO00000000001EA990: <name>
+	INFO00000000001EA990: <name> -> INFO00000000001EADD0: <left>
+	node[color = "red",fontsize=14];
+	INFO00000000001EAA10 [shape = record, label = " <left> LEFT :\n00000000001EAB50 | <name> *| <right> RIGHT :\n00000000001EAE50"];
+	INFO00000000001EA990: <left> -> INFO00000000001EAA10: <name>
+	INFO00000000001EAA10: <name> -> INFO00000000001EA990: <left>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EAB50 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 5.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EAA10: <left> -> INFO00000000001EAB50: <name>
+	INFO00000000001EAB50: <name> -> INFO00000000001EAA10: <left>
+	node[color = "darkgreen",fontsize=14];
+	INFO00000000001EAE50 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> x| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EAA10: <right> -> INFO00000000001EAE50: <name>
+	INFO00000000001EAE50: <name> -> INFO00000000001EAA10: <right>
+	node[color = "red",fontsize=14];
+	INFO00000000001E9F10 [shape = record, label = " <left> LEFT :\n00000000001E9F90 | <name> *| <right> RIGHT :\n00000000001EBCA0"];
+	INFO00000000001EADD0: <right> -> INFO00000000001E9F10: <name>
+	INFO00000000001E9F10: <name> -> INFO00000000001EADD0: <right>
+	node[color = "red",fontsize=14];
+	INFO00000000001E9F90 [shape = record, label = " <left> LEFT :\n00000000001EB360 | <name> *| <right> RIGHT :\n00000000001EB920"];
+	INFO00000000001E9F10: <left> -> INFO00000000001E9F90: <name>
+	INFO00000000001E9F90: <name> -> INFO00000000001E9F10: <left>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EB360 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 3.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E9F90: <left> -> INFO00000000001EB360: <name>
+	INFO00000000001EB360: <name> -> INFO00000000001E9F90: <left>
+	node[color = "red",fontsize=14];
+	INFO00000000001EB920 [shape = record, label = " <left> LEFT :\n00000000001EB1A0 | <name> ^| <right> RIGHT :\n00000000001EB6A0"];
+	INFO00000000001E9F90: <right> -> INFO00000000001EB920: <name>
+	INFO00000000001EB920: <name> -> INFO00000000001E9F90: <right>
+	node[color = "darkmagenta",fontsize=14];
+	INFO00000000001EB1A0 [shape = record, label = " <left> LEFT :\n00000000001EB820 | <name> c| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EB920: <left> -> INFO00000000001EB1A0: <name>
+	INFO00000000001EB1A0: <name> -> INFO00000000001EB920: <left>
+	node[color = "red",fontsize=14];
+	INFO00000000001EB820 [shape = record, label = " <left> LEFT :\n00000000001EBAE0 | <name> *| <right> RIGHT :\n00000000001EAF20"];
+	INFO00000000001EB1A0: <left> -> INFO00000000001EB820: <name>
+	INFO00000000001EB820: <name> -> INFO00000000001EB1A0: <left>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EBAE0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 3.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EB820: <left> -> INFO00000000001EBAE0: <name>
+	INFO00000000001EBAE0: <name> -> INFO00000000001EB820: <left>
+	node[color = "darkgreen",fontsize=14];
+	INFO00000000001EAF20 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> x| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EB820: <right> -> INFO00000000001EAF20: <name>
+	INFO00000000001EAF20: <name> -> INFO00000000001EB820: <right>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EB6A0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 2.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EB920: <right> -> INFO00000000001EB6A0: <name>
+	INFO00000000001EB6A0: <name> -> INFO00000000001EB920: <right>
+	node[color = "red",fontsize=14];
+	INFO00000000001EBCA0 [shape = record, label = " <left> LEFT :\n00000000001EB1E0 | <name> *| <right> RIGHT :\n00000000001EB2E0"];
+	INFO00000000001E9F10: <right> -> INFO00000000001EBCA0: <name>
+	INFO00000000001EBCA0: <name> -> INFO00000000001E9F10: <right>
+	node[color = "red",fontsize=14];
+	INFO00000000001EB1E0 [shape = record, label = " <left> LEFT :\n00000000001EBDA0 | <name> *| <right> RIGHT :\n00000000001EBBA0"];
+	INFO00000000001EBCA0: <left> -> INFO00000000001EB1E0: <name>
+	INFO00000000001EB1E0: <name> -> INFO00000000001EBCA0: <left>
+	node[color = "darkmagenta",fontsize=14];
+	INFO00000000001EBDA0 [shape = record, label = " <left> LEFT :\n00000000001EAF60 | <name> s| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EB1E0: <left> -> INFO00000000001EBDA0: <name>
+	INFO00000000001EBDA0: <name> -> INFO00000000001EB1E0: <left>
+	node[color = "red",fontsize=14];
+	INFO00000000001EAF60 [shape = record, label = " <left> LEFT :\n00000000001EB2A0 | <name> *| <right> RIGHT :\n00000000001EAFE0"];
+	INFO00000000001EBDA0: <left> -> INFO00000000001EAF60: <name>
+	INFO00000000001EAF60: <name> -> INFO00000000001EBDA0: <left>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EB2A0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 3.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EAF60: <left> -> INFO00000000001EB2A0: <name>
+	INFO00000000001EB2A0: <name> -> INFO00000000001EAF60: <left>
+	node[color = "darkgreen",fontsize=14];
+	INFO00000000001EAFE0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> x| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EAF60: <right> -> INFO00000000001EAFE0: <name>
+	INFO00000000001EAFE0: <name> -> INFO00000000001EAF60: <right>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EBBA0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> -1.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EB1E0: <right> -> INFO00000000001EBBA0: <name>
+	INFO00000000001EBBA0: <name> -> INFO00000000001EB1E0: <right>
+	node[color = "blue",fontsize=14];
+	INFO00000000001EB2E0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> 3.000000| <right> RIGHT :\n0000000000000000"];
+	INFO00000000001EBCA0: <right> -> INFO00000000001EB2E0: <name>
+	INFO00000000001EB2E0: <name> -> INFO00000000001EBCA0: <right>
+	}
